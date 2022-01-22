@@ -290,7 +290,7 @@ var Manager = /*#__PURE__*/function (_typed_events_1$Stric) {
     }
 
     opts = opts || {};
-    opts.path = opts.path || "/socket.io";
+    opts.path = opts.path || "/thephish/socket.io";
     _this.opts = opts;
 
     _this.reconnection(opts.reconnection !== false);
